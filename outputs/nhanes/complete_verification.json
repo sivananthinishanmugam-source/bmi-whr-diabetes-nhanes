@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "panel": "mec_nonfasting",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 14,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    },
+    {
+      "panel": "fasting_with_glucose",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 8,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    },
+    {
+      "panel": "fasting_without_glucose",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 8,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    },
+    {
+      "panel": "mec_nonfasting_borderline_nonpositive",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 14,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    },
+    {
+      "panel": "fasting_with_glucose_borderline_nonpositive",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 10,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    },
+    {
+      "panel": "fasting_without_glucose_borderline_nonpositive",
+      "psu_overlap": 0,
+      "classical_metric_rows_verified": 10,
+      "neural_metric_rows_verified": 8,
+      "neural_development_fits": 60,
+      "final_neural_fits": 4
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "synthetic_data_used": false,
+  "documents_generated": false
+}

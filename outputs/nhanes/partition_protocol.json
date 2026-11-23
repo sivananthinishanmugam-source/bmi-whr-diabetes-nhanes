@@ -1,0 +1,22 @@
+{
+  "partition_seed": 20261012,
+  "random_candidate_assignments": 10000,
+  "chosen_candidate_index": 4019,
+  "target_strata_counts": {
+    "train": 9,
+    "validation": 3,
+    "test": 3
+  },
+  "target_person_fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "assignment_unit": "paired masked PSUs within an intact SDMVSTRA",
+  "psu_identity": "SDMVSTRA plus SDMVPSU",
+  "balance_features": "primary definite-outcome eligible MEC and fasting counts, positive/negative counts, and weight totals",
+  "balance_loss": 0.0009691884870412429,
+  "model_performance_used": false,
+  "frozen_before_model_fitting": true,
+  "limitations": "Only 15 public masked strata; partitions contain different strata. Test intervals condition on held-out strata and fitted models; not full-survey population uncertainty. Prior study used these participants."
+}

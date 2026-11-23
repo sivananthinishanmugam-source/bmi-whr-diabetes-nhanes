@@ -1,0 +1,7 @@
+panel,scenario,delta_auc,lower_psu,upper_psu,interpretation
+mec_nonfasting,borderline excluded,0.006334637612942,-0.0034432134521934,0.0149160621608704,interval includes zero
+mec_nonfasting,borderline non-positive,0.0079723308948891,-0.0004724636178548,0.0167088741287534,interval includes zero
+fasting_with_glucose,borderline excluded,0.0051182548374382,-0.0087056528990193,0.0260045859069933,interval includes zero
+fasting_with_glucose,borderline non-positive,0.0036734839632542,-0.0077678539724226,0.0184256128064902,interval includes zero
+fasting_without_glucose,borderline excluded,0.0099711361726233,-0.0009606646244841,0.0212387401449114,interval includes zero
+fasting_without_glucose,borderline non-positive,0.0105832089835684,-0.00561903771114,0.0274075750402795,interval includes zero

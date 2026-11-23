@@ -1,0 +1,9 @@
+{
+  "merged_n": 9254,
+  "adult_men_n": 2840,
+  "definite_outcome_n": 2753,
+  "positive_reports": 477,
+  "borderline_n": 86,
+  "unknown_n": 1,
+  "source": "NHANES 2017-2018 cohort audit (outputs/audit.json from the frozen pipeline)"
+}

@@ -1,0 +1,40 @@
+{
+  "source_file": "jor2019.dta",
+  "source_sha256": "c5e32adda1af8300a198b52a1e82ea003a6144008637b88d7623eaba0e5b93d9",
+  "frozen_lock_sha256": "f20184a605d0f4b40f0aabf7e59b31850665ef79ad27c618de0b026e0fca870b",
+  "frozen_at_utc": "2026-10-20T02:10:52.920878+00:00",
+  "model_objects_verified": true,
+  "model_refit": false,
+  "recalibration": false,
+  "threshold_optimization": false,
+  "synthetic_data_used": false,
+  "outcome": "h7a=1 versus h7a=2 among h6=1; related but nonidentical to NHANES DIQ010",
+  "analysis_weight": "wstep2",
+  "resampling_replicates_requested": 2000,
+  "resampling_replicates_valid": 2000,
+  "n_strata": 32,
+  "n_psus": 507,
+  "resampling_design_universe": "all public-file participants with positive wstep2; metrics restricted to the eligible h6=1 outcome domain",
+  "resampling_universe_n_strata": 32,
+  "resampling_universe_n_psus": 750,
+  "nationality_sensitivity": [
+    {
+      "nationality": "Jordanian",
+      "status": "completed",
+      "n": 564,
+      "cases": 161,
+      "noncases": 403,
+      "n_strata": 24,
+      "n_psus": 288
+    },
+    {
+      "nationality": "Syrian",
+      "status": "completed",
+      "n": 321,
+      "cases": 88,
+      "noncases": 233,
+      "n_strata": 8,
+      "n_psus": 219
+    }
+  ]
+}

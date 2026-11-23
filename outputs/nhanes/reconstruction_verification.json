@@ -1,0 +1,102 @@
+[
+  {
+    "column": "SEQN",
+    "mismatches": 0
+  },
+  {
+    "column": "SDMVPSU",
+    "mismatches": 0
+  },
+  {
+    "column": "SDMVSTRA",
+    "mismatches": 0
+  },
+  {
+    "column": "WTMEC2YR",
+    "mismatches": 0
+  },
+  {
+    "column": "age",
+    "mismatches": 0
+  },
+  {
+    "column": "bmi",
+    "mismatches": 0
+  },
+  {
+    "column": "waist_to_hip_ratio",
+    "mismatches": 0
+  },
+  {
+    "column": "systolic_bp",
+    "mismatches": 0
+  },
+  {
+    "column": "diastolic_bp",
+    "mismatches": 0
+  },
+  {
+    "column": "heart_rate",
+    "mismatches": 0
+  },
+  {
+    "column": "cholesterol_total",
+    "mismatches": 0
+  },
+  {
+    "column": "hdl_cholesterol",
+    "mismatches": 0
+  },
+  {
+    "column": "ldl_cholesterol",
+    "mismatches": 0
+  },
+  {
+    "column": "triglycerides",
+    "mismatches": 0
+  },
+  {
+    "column": "physical_activity_minutes_per_week",
+    "mismatches": 0
+  },
+  {
+    "column": "alcohol_drinks_per_drinking_day",
+    "mismatches": 0
+  },
+  {
+    "column": "sleep_hours_per_day",
+    "mismatches": 0
+  },
+  {
+    "column": "poverty_income_ratio",
+    "mismatches": 0
+  },
+  {
+    "column": "glucose_fasting",
+    "mismatches": 0
+  },
+  {
+    "column": "ever_smoked_100_cigarettes",
+    "mismatches": 0
+  },
+  {
+    "column": "education_level",
+    "mismatches": 0
+  },
+  {
+    "column": "ethnicity",
+    "mismatches": 0
+  },
+  {
+    "column": "hypertension_history",
+    "mismatches": 0
+  },
+  {
+    "column": "family_history_diabetes",
+    "mismatches": 0
+  },
+  {
+    "column": "diabetes",
+    "mismatches": 0
+  }
+]

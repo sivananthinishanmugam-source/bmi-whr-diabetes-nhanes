@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "verified_at_local_date": "2026-10-27",
+  "checks": [
+    {
+      "check": "frozen_object_hashes",
+      "status": "pass",
+      "count": 4
+    },
+    {
+      "check": "source_and_lock_manifest",
+      "status": "pass"
+    },
+    {
+      "check": "cohort_and_design",
+      "status": "pass",
+      "eligible_n": 885,
+      "cases": 249,
+      "domain_strata": 32,
+      "domain_psus": 507,
+      "universe_psus": 750
+    },
+    {
+      "check": "csv_dta_harmonization",
+      "status": "pass"
+    },
+    {
+      "check": "independent_metric_recalculation",
+      "status": "pass",
+      "values": 52
+    },
+    {
+      "check": "resampling_endpoints",
+      "status": "pass",
+      "replicate_sets": 3,
+      "replicates_each": 2000,
+      "interval_pairs": 165
+    }
+  ]
+}

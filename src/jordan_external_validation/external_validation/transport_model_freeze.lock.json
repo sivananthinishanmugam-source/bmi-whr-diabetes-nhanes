@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-10-20T02:10:52.920878+00:00",
+  "python": "3.11.6",
+  "seed": 42,
+  "threshold": 0.2,
+  "model_family": "logistic regression only",
+  "calibration": "weighted logistic calibration fitted in NHANES validation partition",
+  "external_refitting_permitted": false,
+  "external_recalibration_permitted": false,
+  "participant_level_jordan_data_accessed_before_freeze": false,
+  "synthetic_data_used": false,
+  "protocol_sha256": "6c0e308124b33317524ba946a5fe7748e25b356bc318496731d92a04d5c3e08c",
+  "crosswalk_sha256": "1dd2ccb72b950097525675664f7739174a77e9fcb55df4aa4dd605f46d895847",
+  "nhanes_psu_assignment_sha256": "3497e1ed494ff6b1c85ea350dc5fe0d4cef904850830106704ebcfdc2242e733",
+  "objects": {
+    "BASE_LogReg_frozen.joblib": "26df478c373fd3ba4b4b65417f6cb5f93b4f262dce1e28bc682cdedd51389e3e",
+    "BMI_LogReg_frozen.joblib": "8d5906487bc28eda9cecbd5dc3da0b55940888ac9d0615c218d1e6bd67ccd682",
+    "WHR_LogReg_frozen.joblib": "dfb1bf08070e205d2ff17b05fc4772270ca1f38f04dfb0f93642d48ef85f18a0",
+    "BOTH_LogReg_frozen.joblib": "3643d4bb0f5504d0322ef50ad3e45bfc0f6179c75c0922ce16e79acfdc6b8c23"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "eligible_n": 885,
+  "cases": 249,
+  "weighted_prevalence": 0.2300644582836289,
+  "weight": "wstep2 (Step 2 weight)",
+  "source": "Aggregate computed from jordan_external_validation_predictions.csv; participant-level rows are licensed and not distributed"
+}

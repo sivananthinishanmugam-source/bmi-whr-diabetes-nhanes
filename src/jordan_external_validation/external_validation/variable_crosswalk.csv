@@ -1,0 +1,25 @@
+analysis_variable,nhanes_source,jordan_source,jordan_unit_or_codes,external_model_status,reason_or_transformation
+age,RIDAGEYR,age,years,include,Restrict both cohorts to men aged 18-69
+bmi,BMXBMI,m11 and m12,cm and kg,include,Derive m12/(m11/100)^2
+waist_to_hip_ratio,BMXWAIST and BMXHIP,m14 and m15,cm,include,Derive m14/m15
+systolic_bp,BPXSY1-BPXSY4,m4a m5a m6a,mmHg,include,Mean valid readings requiring at least two
+diastolic_bp,BPXDI1-BPXDI4,m4b m5b m6b,mmHg,include,Mean valid readings requiring at least two
+heart_rate,BPXPLS,m16a m16b m16c,beats/min,include,Mean valid readings requiring at least two
+hypertension_history,BPQ020,h2a,1=yes; 2=no,include,Missing remains missing and is handled by frozen preprocessing
+education_level,DMDEDUC2,c4 or c5,country-specific,exclude,No exact category harmonization
+ethnicity,RIDRETH3,none,not available,exclude,No harmonized construct
+poverty_income_ratio,INDFMPIR,c10/c11,country-specific,exclude,No harmonized construct
+ever_smoked_100_cigarettes,SMQ020,t1/t8,different construct,exclude,Jordan has no 100-cigarette threshold
+family_history_diabetes,MCQ300C,none,not available,exclude,Not available
+sleep_hours_per_day,SLD012,none,not available,exclude,Not available
+physical_activity_minutes_per_week,PAQ/PAD series,p1-p15,hours/minutes and days,exclude_from_strict_core,Similar GPAQ domains but avoid derivation and skip-pattern transport error
+alcohol_drinks_per_drinking_day,ALQ130,a7,drinks/occasion,exclude_from_strict_core,Different reference period and skip pattern
+cholesterol_total,LBXTC,b8,mg/dL versus mmol/L,exclude_from_primary_external,Requires Step 3
+hdl_cholesterol,LBDHDD,b17,mg/dL versus mmol/L,exclude_from_primary_external,Requires Step 3
+ldl_cholesterol,LBDLDL,x60,mg/dL versus mmol/L,exclude_from_primary_external,Requires Step 3
+triglycerides,LBXTR,b16,mg/dL versus mmol/L,exclude_from_primary_external,Requires Step 3
+glucose_fasting,LBXGLU,b5,mg/dL versus mmol/L,exclude_as_predictor,Contemporaneous glucose may reflect existing diagnosis or treatment and requires Step 3
+outcome,DIQ010,h7a,1=yes; 2=no,related_not_identical,Jordan wording includes raised blood sugar and is conditional on h6=1
+analysis_weight,WTMEC2YR,wstep2,positive continuous,include,Appropriate for measured physical variables in each survey
+design_stratum,SDMVSTRA,stratum,integer,include_for_variance,Not a predictor
+design_psu,SDMVSTRA plus SDMVPSU,psu,identifier,include_for_variance,Not a predictor
