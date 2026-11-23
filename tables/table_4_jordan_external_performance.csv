@@ -1,0 +1,5 @@
+configuration,weighted_auc,auc_lower_psu,auc_upper_psu,brier,calibration_slope,calibration_in_the_large,sensitivity_at_0_20,specificity_at_0_20
+BASE,0.7694,0.7159,0.8174,0.1725,0.6541,1.3032,0.3589,0.8976
+BMI,0.7617,0.7096,0.8109,0.1797,0.6141,1.5387,0.3024,0.9204
+WHR,0.7378,0.6858,0.7872,0.1888,0.4248,1.8005,0.2562,0.9089
+BOTH,0.7391,0.6876,0.788,0.1898,0.4253,1.8728,0.2593,0.9213

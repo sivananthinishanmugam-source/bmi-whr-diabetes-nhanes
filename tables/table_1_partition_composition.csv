@@ -1,0 +1,7 @@
+analysis,split,n,positive,psus,strata,weighted_positive_proportion
+Secondary with glucose,train,654,124,18,9,0.1022
+Secondary with glucose,validation,227,45,6,3,0.1531
+Secondary with glucose,test,215,44,6,3,0.1763
+Primary nonfasting,train,1551,271,18,9,0.1193
+Primary nonfasting,validation,523,95,6,3,0.1339
+Primary nonfasting,test,515,93,6,3,0.1557

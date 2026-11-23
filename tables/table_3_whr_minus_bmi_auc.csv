@@ -1,0 +1,7 @@
+analysis,outcome_coding,delta_auc,lower_psu,upper_psu
+Primary nonfasting,borderline excluded,0.0063,-0.0034,0.0149
+Primary nonfasting,borderline non-positive,0.008,-0.0005,0.0167
+Secondary with glucose,borderline excluded,0.0051,-0.0087,0.026
+Secondary with glucose,borderline non-positive,0.0037,-0.0078,0.0184
+Sensitivity without glucose,borderline excluded,0.01,-0.001,0.0212
+Sensitivity without glucose,borderline non-positive,0.0106,-0.0056,0.0274
